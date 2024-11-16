@@ -1,0 +1,29 @@
+🎮 Guessing Game
+This is a console-based number guessing game built in C. The program challenges the user to guess a randomly generated number based on the selected difficulty level. Each level has a unique number range and limited attempts to make the game exciting and challenging.
+
+How to Play?
+Run the program, and you'll be welcomed with a menu showing different difficulty levels:
+
+Easy: 10 chances to guess, number range: 0-100.
+Medium: 7 chances to guess, number range: 0-150.
+Hard: 5 chances to guess, number range: 0-300.
+Advance: 4 chances to guess, number range: 0-500.
+Choose a difficulty level by entering the corresponding number (1, 2, 3, or 4).
+
+Start guessing:
+
+Enter your guess within the specified range.
+The program will guide you by saying if the actual number is higher or lower than your guess.
+If you guess the number correctly within the allowed attempts, you win! 🎉
+
+If you fail, the game will reveal the correct answer.
+At the end of the game, you can choose to:
+
+Play again by entering 'y' or 'Y'.
+Exit the game by entering 'n' or 'N'.
+Features
+Difficulty Levels: Tailored gameplay for different skill levels.
+Input Validation: Ensures guesses are within the valid range for each difficulty.
+Random Number Generation: Numbers are randomly generated using the rand() function.
+Retry Option: Play as many rounds as you want without restarting the program.
+User-Friendly Feedback: Clear instructions and feedback for each guess.
